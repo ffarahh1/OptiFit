@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-feature
+        android:name="android.hardware.telephony"
+        android:required="true" />
+
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+
+    <application
+        android:allowBackup="true"
+        android:dataExtractionRules="@xml/data_extraction_rules"
+        android:fullBackupContent="@xml/backup_rules"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.FitnessApp"
+        tools:targetApi="31">
+        <activity
+            android:name=".more_info_ideal_w"
+            android:exported="false" />
+        <activity
+            android:name=".ai_chatbot_test1"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".FindCoach"
+            android:exported="false" />
+        <activity
+            android:name=".Male_Femail_Activity"
+            android:exported="false" />
+        <activity
+            android:name=".Videos_Lister"
+            android:exported="false" />
+        <activity
+            android:name=".menExercisesActivity"
+            android:exported="false" />
+        <activity
+            android:name=".Cards_videos_list"
+            android:exported="false" />
+        <activity
+            android:name=".VideoPlayerActivity"
+            android:exported="false" />
+        <activity
+            android:name=".exercises_list"
+            android:exported="false" />
+        <activity
+            android:name=".IdealWeightActivity"
+            android:exported="false" />
+        <activity
+            android:name=".PdfReaderActivity"
+            android:exported="false" />
+        <activity
+            android:name=".resp_list"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

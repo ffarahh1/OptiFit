@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="golden">#A69927</color>
+    <color name="red">#F60404</color>
+    <color name="purple">#6C2178</color>
+    <color name="Green">#0F950A</color>
+    <color name="user_message_background">#272726</color> <!-- gray -->
+    <color name="bot_message_background">#093C4C</color> <!-- dark blue -->
+    <color name="greenAi">#4CAF50</color>
+    <color name="blueAi">#2196F3</color>
+    <color name="orangeAi">#FF9800</color>
+    <color name="purpleAi">#9C27B0</color>
+    <color name="pinkAi">#E91E63</color>
+</resources>

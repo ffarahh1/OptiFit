@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    app:cardCornerRadius="16dp"
+    app:cardElevation="8dp"
+
+    android:gravity="fill"
+    android:layout_gravity="fill"
+    android:background="@color/black"
+    >
+
+    <LinearLayout
+        android:id="@+id/main_linear_id"
+        android:layout_gravity="fill"
+        android:gravity="fill"
+        android:layout_width="match_parent"
+        android:layout_height="98dp"
+        android:background="@color/black"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:id="@+id/Linear_card_layout"
+            android:layout_width="94dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/Card_Image_coach_id"
+                android:layout_width="93dp"
+                android:layout_height="97dp"
+                android:layout_gravity="left"
+                android:background="@color/black"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="305dp"
+            android:layout_height="match_parent"
+            android:background="@color/black"
+            android:gravity="left"
+
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp"
+                android:paddingTop="7dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:background="@color/black"
+                    android:gravity="left"
+                    android:paddingTop="5dp"
+                    android:text="Name: "
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Coach_name"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="ch1"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:background="@color/black"
+                    android:gravity="left"
+                    android:paddingTop="5dp"
+                    android:text="Phone: "
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Coach_phone"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="0780000"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:paddingLeft="5dp">
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="left"
+                    android:background="@color/black"
+                    android:gravity="left"
+                    android:paddingTop="5dp"
+                    android:text="Email: "
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:id="@+id/Coach_Email"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:paddingTop="5dp"
+                    android:text="a@gmail.com"
+                    android:textColor="@color/white"
+                    android:textSize="12sp" />
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+</androidx.cardview.widget.CardView>

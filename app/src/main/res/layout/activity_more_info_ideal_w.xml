@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".more_info_ideal_w">
+    <LinearLayout
+        android:paddingLeft="20px"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#9F76AA"
+        android:orientation="vertical">
+        <EditText
+            android:id="@+id/hoursOfExc_text"
+            android:layout_marginTop="30dp"
+            android:paddingVertical="10dp"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:inputType="numberDecimal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Hours of Excercise per Day "
+            android:background="@color/white"
+            android:textColorHint="@color/black"
+            android:textColor="@color/black"
+            />
+        <Button
+            android:id="@+id/hoursOfExc_btn"
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:text="Calculate"
+            android:textColor="@color/white"/>
+        <TextView
+            android:id="@+id/Extra_info_id"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:textSize="80px"
+            android:textColor="@color/white"
+            android:textStyle="italic"
+            android:paddingLeft="20px"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>
